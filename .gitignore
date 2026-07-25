@@ -1,0 +1,11 @@
+# C++ / CMake
+cpp/build/
+cpp/cmake-build-*/
+
+# Scala / sbt
+scala/target/
+scala/project/target/
+scala/project/project/
+.scala-build/
+.metals/
+.bsp/
