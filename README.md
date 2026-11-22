@@ -7,7 +7,7 @@
 - `cpp/`：C++23 + CMake 工程
   - `src/`：算法实现（目前包含二分查找示例）
   - `tests/`：测试；新增 `tests/*.cpp` 后，CMake 会自动创建并注册对应测试
-- `scala/`：Scala 3 + sbt 工程
+- `scala/`：Scala 2.13.14 + sbt 工程
   - `src/main/scala/`：算法实现
   - `src/test/scala/`：测试（使用 MUnit）
 
