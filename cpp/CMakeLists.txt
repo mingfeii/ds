@@ -10,6 +10,9 @@ include(CTest)
 add_library(algorithms INTERFACE)
 target_include_directories(algorithms INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
+add_executable(eight_queens examples/eight_queens.cpp)
+target_link_libraries(eight_queens PRIVATE algorithms)
+
 file(GLOB TEST_SOURCES CONFIGURE_DEPENDS tests/*.cpp)
 foreach(test_source IN LISTS TEST_SOURCES)
     get_filename_component(test_name ${test_source} NAME_WE)
